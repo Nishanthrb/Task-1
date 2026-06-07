@@ -46,9 +46,8 @@ print("First number greater?", a > b)
 print("First number less than or equal?", a <= b)
 
 # 5. Square Root of a Number
-import math
 num = float(input("Enter a number: "))
-print("Square Root =", math.sqrt(num))
+print("Square Root =", (num)**0.5)
 
 # 6. Simple Interest and Compound Interest
 principal = float(input("Enter Principal Amount: "))
@@ -85,7 +84,6 @@ print("a =", a)
 print("b =", b)
 
 # 9. Cube Root of a Number
-
 num = float(input("Enter a number: "))
 cube_root = num ** (1/3)
 print("Cube Root =", cube_root)
